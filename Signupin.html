@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images\\Zelab_tab_icon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>ZeLAB-Signup/in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/> 
+    <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type = "text/javascript" >  
+      function preventBack() { window.history.forward(); }  
+      setTimeout("preventBack()", 0);  
+      window.onunload = function () { null };  
+  </script>
+</head>
+<body>
+  
+    <nav >
+        <img src="images\Zelab_logo_white.png" alt="Zelab_logo">
+        <div class="logo"><a href="index.html" style="color: white;;text-decoration:none">ZeLAB</a></div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li style="margin-left: 12rem;"><a href="aboutus.html" style="color: white;">AboutUs</a></li>
+            <li><a href="index.html" style="color: white;">Home</a></li>
+        </ul>
+    </nav>
+   
+    <section id="home" class="section" >
+        <div class="image">
+            <img src="images\Zelab_anim_DO6.gif" alt="Zelab_blob_anim" style="margin-left:40rem">
+        </div>
+   </section >
+
+   <div class="container" id="login-link" style="margin-left: 5rem;">
+        <input type="checkbox" id="check">
+        
+        <div class="login form">
+          <header>Login</header>
+          <form action="signin.php" method="post">
+            <input type="text" name="email_l" placeholder="Enter your email">
+            <input type="password" name="password_l" placeholder="Enter your password">
+            <input type="submit" name="submit_l" class="button" value="Login">
+          </form>
+          <div class="signup">
+            <span class="signup">Don't have an account?
+             <label for="check">Signup</label>
+            </span>
+          </div>
+        </div>
+
+        <div class="registration form" style="padding-top: 0px;">
+          <header>Signup</header>
+          <form action="signup.php" method="post">
+            <input type="text" name="name" placeholder="Enter your Username">
+            <input type="text" name="email" placeholder="Enter your Email">
+            <input type="password" name="password" placeholder="Create a Password">
+            <input type="password" name="cpassword" placeholder="Confirm your Password">
+
+            <div class="dobgeninfo" style="display: flex;">
+        </div>
+            <input type="submit" name="submit" class="button" value="Signup">
+          </form>
+
+          <div class="signup">
+            <span class="signup">Already have an account?
+             <label for="check">Login</label>
+            </span>
+          </div>
+
+        </div> 
+
+</div> 
+
+
+
+
+</body>
+</html>
+

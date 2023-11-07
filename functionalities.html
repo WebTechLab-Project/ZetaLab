@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images\\Zelab_tab_icon.ico">
+    <link rel="stylesheet" href="functionalities.css">
+    <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+    <title>ZeLab-YourSpace</title>
+</head>
+<body>
+    <script src="func.js"></script>
+    <div class="header">
+        <span class="header_logo">
+            <img src="images\Zelab_logo_white.png" title="Zelab_logo" alt="Zelab_logo">
+        </span>
+        <span class="header_name">
+            ZeLab
+        </span>
+        <span class="header_signout">
+            <a href="index_session.html" style="text-decoration: none; color:aliceblue;">
+            <div>
+            &nbsp;Back&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            </a>
+        </span>
+    </div>
+    <div class="functionality_bg">
+        <div class="functionality">
+            <div class="functionality_title">
+                &nbsp;&nbsp;&nbsp;PrimeChecker
+            </div>
+            <div class="inputs">
+                <span class="input_tag">
+                &nbsp;Number
+                </span>
+                <input type="text" id="prime_input" placeholder="Enter your number here" class="input_text_field">
+            </div>
+
+            <div class="ANS_div">
+                <span id="prime_ans" class="ANS_display"></span>
+                <button class="ANS_button" title="ANS" onclick="prime()">Solve</button>
+            </div>
+        </div>
+        <div class="functionality">
+            <div class="functionality_title">
+                &nbsp;&nbsp;&nbsp;Odd/Even
+            </div>
+            <div class="inputs">
+                <span class="input_tag">
+                &nbsp;Number
+                </span>
+                <input type="text" id="odd_input" placeholder="Enter your number here" class="input_text_field">
+            </div>
+
+            <div class="ANS_div">
+                <span id="odd_ans" class="ANS_display"></span>
+                <button class="ANS_button" title="ANS" onclick="odd()">Solve</button>
+            </div>
+        </div>
+        <div class="functionality">
+            <div class="functionality_title">
+                &nbsp;&nbsp;&nbsp;Circle Perimeter
+            </div>
+            <div class="inputs">
+                <span class="input_tag">
+                &nbsp;Radius
+                </span>
+                <input id="cp_input" type="text" placeholder="Enter your number here" class="input_text_field">
+            </div>
+
+            <div class="ANS_div">
+                <span class="ANS_display" id="cp_ans"></span>
+                <button class="ANS_button" title="ANS" onclick="cp()">Solve</button>
+            </div>
+        </div>
+        <div class="functionality">
+            <div class="functionality_title">
+                &nbsp;&nbsp;&nbsp;Circle Area
+            </div>
+            <div class="inputs">
+                <span class="input_tag">
+                &nbsp;Radius
+                </span>
+                <input id="ca_input" type="text" placeholder="Enter your number here" class="input_text_field">
+            </div>
+
+            <div class="ANS_div">
+                <span class="ANS_display" id="ca_ans"></span>
+                <button class="ANS_button" title="ANS" onclick="ca()">Solve</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

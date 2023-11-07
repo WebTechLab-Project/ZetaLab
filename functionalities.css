@@ -1,0 +1,325 @@
+body::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+    
+}
+
+body {
+
+    color: aliceblue;
+    background-color: rgb(34, 34, 34);
+    font-family:'Source Sans Pro';
+    
+}
+
+
+
+.header {
+
+    display: block;
+    
+    width: 100%;
+    height: 17vh;
+    
+    margin: 0;
+
+    clear: both;
+
+    /* border-style: solid; */
+    /* border-color: azure; */
+    /* border-width: 1px; */
+    
+}
+
+.header_logo {
+
+    height: 100%;
+    aspect-ratio: 1/1;
+
+    float: left;
+
+    /* border-style: solid; */
+    /* border-color: azure; */
+    /* border-width: 1px; */
+
+}
+
+.header_logo img {
+
+    height: 100%;
+    aspect-ratio: 1/1;
+
+
+}
+
+.header_name {
+
+    font-size: 7vh;
+    
+    
+
+    height: 75%;
+    width:auto;
+
+    padding-top: 5vh;
+
+    float: left;
+
+    /* border-style: solid; */
+    /* border-color: azure; */
+    /* border-width: 1px; */
+
+    
+}
+
+.header_history {
+
+    font-size: 4.5vh;
+    
+    
+
+    height: 65%;
+    width:auto;
+
+    padding-top: 7vh;
+
+    float: right;
+
+    /* border-style: solid; */
+    /* border-color: azure; */
+    /* border-width: 1px; */
+
+}
+
+.header_signout {
+    
+
+    font-size: 3.5vh;
+
+
+    height: 65%;
+    width:auto;
+
+    padding-top: 7vh;
+
+    float: right;
+
+    /* border-style: solid; */
+    /* border-color: azure; */
+    /* border-width: 1px; */
+
+}
+
+.header_user_logo {
+
+    height: 100%;
+    width: auto;
+
+    display: flex;
+    align-items: center;
+
+    padding-right: 1vw;
+
+    float: right;
+
+    /* border-style: solid; */
+    /* border-color: azure; */
+    /* border-width: 1px; */
+
+}
+
+.header_user_logo img {
+
+    height: 10vh;
+
+}
+
+.functionality_bg {
+
+    background-color: black;
+
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    
+    
+    border-radius:25px ;
+    
+
+    width: 98%;
+    height: auto;
+    
+    
+
+    clear: both;
+
+    /* border-style: solid; */
+    /* border-color: azure; */
+    /* border-width: 1px; */
+
+
+}
+
+.functionality {
+
+    background-color: rgb(208, 208, 208);
+
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+
+    border-radius:18px ;
+
+    width: 94vw;
+    height: 20vh;
+
+    /* border-style: solid; */
+    /* border-color: azure; */
+    /* border-width: 1px; */
+
+}
+
+.functionality_title {
+
+
+    color: black;
+    font-size: 3.5vh;
+    font-weight: bolder;
+
+    padding-top: 1vh;
+
+    height: 30%;
+    width: 100;
+
+    /* border-style: solid; */
+    /* border-color: black; */
+    /* border-width: 1px; */
+
+}
+
+.inputs {
+
+    
+    height: 30%;
+    width: 100;
+
+    /* border-style: solid; */
+    /* border-color: black; */
+    /* border-width: 1px; */
+
+}
+
+.input_tag {
+
+    color: black;
+    font-size: 3vh;
+    font-weight: bold;
+
+    margin-left: 4vh;
+
+    height: 100%;
+    width: auto;
+
+
+
+}
+
+.input_text_field {
+
+    color: black;
+    font-size: 3vh;
+    font-weight: bold;
+
+    margin-top: 1vh;
+
+    height: 60%;
+    width: auto;
+
+
+}
+
+.ANS_div {
+
+    display: block;
+    clear: both;
+
+    height: 30%;
+    width: 100;
+
+    /* border-style: solid; */
+    /* border-color: black; */
+    /* border-width: 1px; */
+
+}
+
+.ANS_button {
+
+    color: aliceblue;
+    background-color: black;
+    font-size: 3.5vh;
+    
+    border-radius: 5px;
+
+    margin-top: 0.5vh;
+    margin-right: 1vw;
+
+    float: right;
+
+    
+} 
+
+.ANS_display {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 3vh;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 10px;
+
+    margin-top: 0.5vh;
+    margin-right: 0.5vw;
+    padding-left: 0.5vw;
+    height: 90%;
+    width: 35%;
+
+    float: right;
+
+    /* border-style: solid; */
+    /* border-color: black; */
+    /* border-width: 1px; */
+
+}
+
+.calc_button {
+
+    position: fixed;
+    background-color: gray;
+
+    left: 1190px;
+    top: 610px;
+    z-index: 9;
+
+    border-radius: 5px;
+
+    height: 10vh;
+    aspect-ratio: 1/1;
+
+   
+}
+
+.calc_button img {
+
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+
+
+
+
+
+
+
