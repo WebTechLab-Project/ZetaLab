@@ -1,0 +1,167 @@
+body::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+    
+}
+
+body {
+
+    color: aliceblue;
+    background-color: rgb(34, 34, 34);
+    font-family:'Source Sans Pro';
+    
+}
+
+
+
+.header {
+
+    display: block;
+    
+    width: 100%;
+    height: 20vh;
+    
+    margin: 0;
+
+    clear: both;
+
+    /* border-style: solid; */
+    /* border-color: azure; */
+    /* border-width: 1px; */
+    
+}
+
+.header_logo {
+
+    height: 100%;
+    aspect-ratio: 1/1;
+
+    float: left;
+
+    padding-left: 2vw;
+
+    /* border-style: solid; */
+    /* border-color: azure; */
+    /* border-width: 1px; */
+
+}
+
+.header_logo img {
+
+    height: 100%;
+    aspect-ratio: 1/1;
+
+
+}
+
+.header_name {
+
+    font-size: 7vh;
+    
+    
+
+    height: 75%;
+    width:auto;
+
+    padding-top: 5vh;
+
+    float: left;
+
+    /* border-style: solid; */
+    /* border-color: azure; */
+    /* border-width: 1px; */
+
+    
+}
+
+.header_back {
+
+    font-size: 4.5vh;
+    
+    
+
+    height: 65%;
+    width:auto;
+
+    padding-top: 7vh;
+    padding-right: 10vw;
+
+    float: right;
+
+    /* border-style: solid; */
+    /* border-color: azure; */
+    /* border-width: 1px; */
+
+}
+
+.list_bg {
+
+    background-color: #898989;
+
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    
+    
+    border-radius:25px ;
+    
+    padding: 2vh;
+    clear: both;
+
+    border-style: solid;
+    border-color: azure;
+    border-width: 1px;
+
+
+}
+
+.history_en {
+
+    background-color: black;
+
+        
+    border-radius: 10px;
+
+    margin-bottom: 1vh;
+
+    height: auto;
+
+   
+}
+
+.Date_time {
+
+    color: aliceblue;
+    font-size: 3vw;
+    height: 100%;
+
+    padding-left:1vw ;
+    padding-right: 1vw;
+
+    border-style: solid;
+    border-color: #898989;
+    border-width: 5px ;
+    border-top-left-radius: 10px;
+
+
+
+}
+
+.history_en_stmt {
+    position: relative;
+
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+
+    color: aliceblue;
+    font-size: 3vw;
+    height: 100%;
+
+    padding-left:1vw ;
+    padding-right: 1vw;
+
+    
+}
